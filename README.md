@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Global Beats 🗞️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Global Beats Home Page](public/GB1.png)
 
-## Available Scripts
+Global Beats is a website that provides users with the latest news articles in four different categories. It uses React for the front-end, Tailwind CSS for styling, NewsAPI for fetching news data, and Firebase for user authentication and data storage.
 
-In the project directory, you can run:
+![Global Beats Sign Up Page](public/GB2.png)
 
-### `npm start`
+![Global Beats Account](public/GB3.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+   ```bash
+   git@github.com:brigitabi/globalBeats.git
 
-### `npm test`
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   cd global-beats
 
-### `npm run build`
+3. Install the required dependencies using npm or yarn:
+    ```bash
+  npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Create a Firebase project and configure the Firebase credentials. You'll need to set up Firebase Authentication and Firestore for user authentication and data storage.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Update your firebase.js file in the project root directory by adding your Firebase configuration. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Start the development server:
+  ```bash
+   npm start
 
-### `npm run eject`
+7. Open your web browser and visit http://localhost:3000 to view the website.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Congratulations! 🎉 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React 
+- Tailwind CSS
+- NewsAPI
+- Firebase
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project has beeen created for learning purposes. Inital plan has been to deploy it to the Firebase, however only later in the project I realized that the News API Developer tier allows only fetching the data from the API in development and testing phase, however not in production so I decided to keep it that way. See the operating website in development above. 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! 
