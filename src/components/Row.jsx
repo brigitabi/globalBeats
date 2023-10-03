@@ -48,6 +48,9 @@ const Row = ({ title, fetchURL, rowID }) => {
         size={40}
         className="bg-black right-0 rounded-full absolute opacity-50 hover:opacity-75 cursor-pointer z-10 hidden group-hover:block"
       />
+      <div>
+        <p className='text-center font-bold'>Created by Brigita B for learning purposes only.</p>
+      </div>
     </div>
   );
 };
