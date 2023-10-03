@@ -2,7 +2,7 @@
 
 ![Global Beats Home Page](public/GB1.png)
 
-Global Beats is a website that provides users with the latest news articles in four different categories. It uses React for the front-end, Tailwind CSS for styling, NewsAPI for fetching news data, and Firebase for user authentication and data storage.
+[Global Beats](https://global-beats.vercel.app) is a website that provides users with the latest news articles in four different categories. It uses React for the front-end, Tailwind CSS for styling, NewsAPI for fetching news data, and Firebase for user authentication and data storage.
 
 ![Global Beats Sign Up Page](public/GB2.png)
 
@@ -41,10 +41,5 @@ Congratulations! 🎉
 - Tailwind CSS
 - NewsAPI
 - Firebase
-
-This project has beeen created for learning purposes. Inital plan has been to deploy it to the 
-Firebase, however only later in the project I realized that the News API Developer tier allows 
-only fetching the data from the API in development and testing phase, however not in production 
-so I decided to keep it that way. See the operating website in development above. 
 
 Happy coding! 

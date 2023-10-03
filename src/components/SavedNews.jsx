@@ -61,7 +61,7 @@ const SavedNews = () => {
           >
             {/* check the line below */}
             <img
-              className="w-full h-auto block"
+              className="w-full h-auto block rounded-full"
               src={item?.img}
               alt={item?.title}
               size={40}
